@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MashriqBank Suite]">
+  <test name="Bank Test(failed)">
+    <classes>
+      <class name="MashriqBankPkg.MashriqBank">
+        <methods>
+          <include name="Contact_Us"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- MashriqBankPkg.MashriqBank -->
+    </classes>
+  </test> <!-- Bank Test(failed) -->
+</suite> <!-- Failed suite [MashriqBank Suite] -->

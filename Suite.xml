@@ -1,0 +1,11 @@
+<suite name="MashreqBank Suite">
+	
+	<test name="Bank Test">
+		
+		<classes> 
+			<class name="MashreqBankPkg.MashreqBank" />
+		</classes>
+
+	</test>
+
+</suite>

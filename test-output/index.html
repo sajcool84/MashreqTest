@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MashreqBank_Suite">
+              <span class="suite-name border-passed">MashreqBank Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MashreqBank_Suite">
+                    <span>D:\MB\Suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MashreqBank_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MashreqBank_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MashreqBank_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MashreqBank_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MashreqBank_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MashreqBank_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MashreqBank_Suite" class="hide-methods passed suite-MashreqBank_Suite"> (hide)</a> <!-- hide-methods passed suite-MashreqBank_Suite -->
+                      <a href="#" panel-name="suite-MashreqBank_Suite" class="show-methods passed suite-MashreqBank_Suite"> (show)</a> <!-- show-methods passed suite-MashreqBank_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MashreqBank_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Contact_Form_Mand_Check">Contact_Form_Mand_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Contact_Us_Check">Contact_Us_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Iam_Lookingto_Check">Iam_Lookingto_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Mobile_No_Invalid_Check">Mobile_No_Invalid_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Mobile_No_Valid_Check">Mobile_No_Valid_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Navigationbar_Check">Navigationbar_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="News_Check">News_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MashreqBank_Suite" title="MashreqBankPkg.MashreqBank" hash-for-method="Sub_Product_Check">Sub_Product_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MashreqBank_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MashreqBank_Suite" class="panel MashreqBank_Suite">
+          <div class="suite-MashreqBank_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MashreqBankPkg.MashreqBank</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_Form_Mand_Check">
+                  </a> <!-- Contact_Form_Mand_Check -->
+                  <span class="method-name">Contact_Form_Mand_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Contact_Us_Check">
+                  </a> <!-- Contact_Us_Check -->
+                  <span class="method-name">Contact_Us_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Iam_Lookingto_Check">
+                  </a> <!-- Iam_Lookingto_Check -->
+                  <span class="method-name">Iam_Lookingto_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mobile_No_Invalid_Check">
+                  </a> <!-- Mobile_No_Invalid_Check -->
+                  <span class="method-name">Mobile_No_Invalid_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Mobile_No_Valid_Check">
+                  </a> <!-- Mobile_No_Valid_Check -->
+                  <span class="method-name">Mobile_No_Valid_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigationbar_Check">
+                  </a> <!-- Navigationbar_Check -->
+                  <span class="method-name">Navigationbar_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="News_Check">
+                  </a> <!-- News_Check -->
+                  <span class="method-name">News_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sub_Product_Check">
+                  </a> <!-- Sub_Product_Check -->
+                  <span class="method-name">Sub_Product_Check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MashreqBank_Suite-class-passed -->
+        </div> <!-- panel MashreqBank_Suite -->
+        <div panel-name="test-xml-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\MB\Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MashreqBank Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Bank Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MashreqBankPkg.MashreqBank&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Bank Test --&gt;
+&lt;/suite&gt; &lt;!-- MashreqBank Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MashreqBank Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Bank Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MashreqBank Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MashreqBank Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MashreqBank_Suite');
+function tableData_MashreqBank_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Contact_Form_Mand_Check')
+data.setCell(0, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(0, 3, 2273);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Mobile_No_Invalid_Check')
+data.setCell(1, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(1, 3, 2115);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Navigationbar_Check')
+data.setCell(2, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(2, 3, 488);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Sub_Product_Check')
+data.setCell(3, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(3, 3, 405);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'News_Check')
+data.setCell(4, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(4, 3, 396);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Contact_Us_Check')
+data.setCell(5, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(5, 3, 296);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Mobile_No_Valid_Check')
+data.setCell(6, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(6, 3, 181);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Iam_Lookingto_Check')
+data.setCell(7, 2, 'MashreqBankPkg.MashreqBank')
+data.setCell(7, 3, 91);
+window.suiteTableData['MashreqBank_Suite']= { tableData: data, tableDiv: 'times-div-MashreqBank_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-MashreqBank_Suite">
+              </div> <!-- times-div-MashreqBank_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MashreqBank Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MashreqBank_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MashreqBankPkg.MashreqBank</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Navigationbar_Check</span>
+                <span class="method-start">31073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">News_Check</span>
+                <span class="method-start">31563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Contact_Us_Check</span>
+                <span class="method-start">31959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Contact_Form_Mand_Check</span>
+                <span class="method-start">32256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Iam_Lookingto_Check</span>
+                <span class="method-start">34530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Sub_Product_Check</span>
+                <span class="method-start">34622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Mobile_No_Invalid_Check</span>
+                <span class="method-start">35027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Mobile_No_Valid_Check</span>
+                <span class="method-start">37143 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

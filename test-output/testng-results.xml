@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MashreqBank Suite" duration-ms="6268" started-at="2019-07-17T19:28:54Z" finished-at="2019-07-17T19:29:00Z">
+    <groups>
+    </groups>
+    <test name="Bank Test" duration-ms="6268" started-at="2019-07-17T19:28:54Z" finished-at="2019-07-17T19:29:00Z">
+      <class name="MashreqBankPkg.MashreqBank">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="beforeSuite" is-config="true" duration-ms="31057" started-at="2019-07-17T19:28:23Z" finished-at="2019-07-17T19:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="Navigationbar_Check()[pri:0, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Navigationbar_Check" duration-ms="488" started-at="2019-07-17T19:28:54Z" finished-at="2019-07-17T19:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigationbar_Check -->
+        <test-method status="PASS" signature="News_Check()[pri:1, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="News_Check" duration-ms="396" started-at="2019-07-17T19:28:54Z" finished-at="2019-07-17T19:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- News_Check -->
+        <test-method status="PASS" signature="Contact_Us_Check()[pri:2, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Contact_Us_Check" duration-ms="296" started-at="2019-07-17T19:28:55Z" finished-at="2019-07-17T19:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Us_Check -->
+        <test-method status="PASS" signature="Contact_Form_Mand_Check()[pri:3, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Contact_Form_Mand_Check" duration-ms="2273" started-at="2019-07-17T19:28:55Z" finished-at="2019-07-17T19:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Form_Mand_Check -->
+        <test-method status="PASS" signature="Iam_Lookingto_Check()[pri:4, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Iam_Lookingto_Check" duration-ms="91" started-at="2019-07-17T19:28:57Z" finished-at="2019-07-17T19:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Iam_Lookingto_Check -->
+        <test-method status="PASS" signature="Sub_Product_Check()[pri:5, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Sub_Product_Check" duration-ms="405" started-at="2019-07-17T19:28:57Z" finished-at="2019-07-17T19:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sub_Product_Check -->
+        <test-method status="PASS" signature="Mobile_No_Invalid_Check()[pri:6, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Mobile_No_Invalid_Check" duration-ms="2115" started-at="2019-07-17T19:28:58Z" finished-at="2019-07-17T19:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile_No_Invalid_Check -->
+        <test-method status="PASS" signature="Mobile_No_Valid_Check()[pri:7, instance:MashreqBankPkg.MashreqBank@7dc7cbad]" name="Mobile_No_Valid_Check" duration-ms="181" started-at="2019-07-17T19:29:00Z" finished-at="2019-07-17T19:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile_No_Valid_Check -->
+      </class> <!-- MashreqBankPkg.MashreqBank -->
+    </test> <!-- Bank Test -->
+  </suite> <!-- MashreqBank Suite -->
+</testng-results>

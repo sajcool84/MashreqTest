@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Java Install" version="1.8.0_211">
+<bootpath>
+<entry path="C:\Java Install\lib\resources.jar"/>
+<entry path="C:\Java Install\lib\rt.jar"/>
+<entry path="C:\Java Install\lib\sunrsasign.jar"/>
+<entry path="C:\Java Install\lib\jsse.jar"/>
+<entry path="C:\Java Install\lib\jce.jar"/>
+<entry path="C:\Java Install\lib\charsets.jar"/>
+<entry path="C:\Java Install\lib\jfr.jar"/>
+<entry path="C:\Java Install\classes"/>
+<entry path="C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes"/>
+<entry path="C:\Program Files (x86)\Micro Focus\LeanFT\bin\java_shared\classes\jasmine.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Java Install\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Java Install\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
